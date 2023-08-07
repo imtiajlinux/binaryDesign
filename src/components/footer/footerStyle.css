@@ -1,0 +1,46 @@
+.footer-section {
+  background-color: #000;
+
+  width: 100%;
+}
+.footerLogo {
+  max-width: 20rem;
+}
+.footer-into h3 {
+  padding-left: 1rem;
+}
+.footer-container {
+  padding: 3rem 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-content h2 {
+  padding: 0.7rem 0;
+  text-align: center;
+  color: #fff;
+}
+.footer-copyrights {
+  text-align-last: center;
+}
+.footer-copyrights h3 {
+  text-transform: uppercase;
+  text-wrap: balance;
+  color: #fff;
+}
+@media screen and (max-width: 800px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-content {
+    padding-top: 3rem;
+  }
+  .footer-copyrights {
+    padding-left: 1rem;
+  }
+}
+.footer-icon {
+  color: #fff;
+  size: 25px;
+  margin: 0.3rem 0.5rem;
+}

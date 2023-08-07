@@ -1,0 +1,28 @@
+.servicesCard {
+  max-width: 280px;
+
+  min-height: 300px;
+  float: right;
+  padding: 1rem 1.3rem;
+}
+
+.servicesCard .icon {
+  background-color: rgb(11, 98, 228);
+  padding: 10px 8px 1px 8px;
+  border-radius: 4px;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0.5rem;
+}
+.servicesCard .title {
+  color: #000;
+  margin: 1rem 0;
+}
+.servicesCard .text {
+  color: #3a3535;
+  text-wrap: balance;
+}
+.servicesCard h2 {
+  color: #000;
+  margin-top: 1rem;
+}

@@ -1,0 +1,22 @@
+.project-card {
+  max-width: 300px;
+
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.project-card .project-title {
+  color: #000;
+  padding: 0.5rem 0;
+}
+.project-card .project-text {
+  color: #363333;
+  padding: 0.5rem 0;
+}
+.project-card h2 {
+  color: #000;
+}
+@media screen and (max-width: 750px) {
+  .project-card {
+    padding-left: 0;
+  }
+}

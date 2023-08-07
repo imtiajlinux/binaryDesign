@@ -1,0 +1,29 @@
+.about-hero-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8rem 2rem;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+.about-hero-img-container .about-hero-img-content {
+  max-width: 50%;
+}
+.about-hero-img-container .about-hero-img-content h2,
+h3,
+p {
+  color: #000;
+}
+.about-hero-img-container .about-hero-img-content p {
+  padding: 1rem 0;
+}
+@media screen and (max-width: 760px) {
+  .about-hero-img-container {
+    flex-direction: column;
+  }
+  .hero-img-img .hero-img {
+    padding: 2rem 0;
+  }
+  .about-hero-img-container .about-hero-img-content {
+    max-width: 98%;
+  }
+}

@@ -1,0 +1,36 @@
+.team-list {
+  background-color: rgb(151, 146, 146);
+  width: 100%;
+  padding: 6rem 2rem;
+}
+.team-List-section {
+  text-align: center;
+}
+.team-List-section p {
+  color: rgb(66, 63, 63);
+  text-transform: capitalize;
+  padding: 1rem 0;
+}
+.team-List-section h2 {
+  color: black;
+  text-transform: uppercase;
+}
+.team-member-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+@media screen and (max-width: 1050px) {
+  .team-member-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 750px) {
+  .team-member-container {
+    grid-template-columns: 1fr;
+  }
+  .team-list {
+    padding: 6rem 0.2rem;
+  }
+}

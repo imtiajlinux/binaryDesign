@@ -1,0 +1,38 @@
+.work-page-into-section {
+  width: 100%;
+  background-color: rgb(168, 171, 202);
+  padding: 4rem 2rem;
+}
+.work-page-into-into {
+  padding: 2rem 0;
+}
+.work-page-into-into p {
+  color: #413d3d;
+  padding: 1rem 0;
+  max-width: 350px;
+  text-wrap: balance;
+}
+.work-page-into-into h2 {
+  color: #000;
+}
+.work-page-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 1070px) {
+  .work-page-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 750px) {
+  .work-page-card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .work-page-into-section {
+    padding: 4rem 0.5rem;
+  }
+}

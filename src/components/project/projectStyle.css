@@ -1,0 +1,36 @@
+.project-section {
+  width: 100%;
+  background-color: rgb(243, 225, 202);
+  padding: 2rem;
+}
+.project-into {
+  text-align: center;
+  padding: 2rem 0;
+}
+.project-into h3 {
+  color: rgb(34, 33, 33);
+  padding: 1rem 0;
+}
+.project-into h2 {
+  color: #000;
+  padding-bottom: 2rem;
+}
+.project-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 1070px) {
+  .project-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 750px) {
+  .project-card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+}
